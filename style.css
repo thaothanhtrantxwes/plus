@@ -333,3 +333,92 @@ body {
     margin-bottom: 2px;
 }
 
+/* me thinking */
+
+.seen-thinking {
+    float: left;
+    
+    font-family: Helvetica;
+	font-size: 17px;
+	font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: 170%;
+    
+    display: block;
+    position: relative;
+	padding: 10px 13px 6px 12px;
+    
+	background:#E5E5EA;
+	border-radius: 29px;
+	color: #000;
+    
+    margin-bottom: 10px;
+}
+
+.seen-thinking a {
+    margin-right: 10px; 
+    font-weight: 600;
+    padding-bottom: 1px;
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: #314289;
+    border-bottom: 1.5px solid #314289;
+}
+
+.seen-thinking:last-of-type::before {
+		content:"";
+		position:absolute;
+		z-index:2;
+		bottom: -1px;
+		left:-3px;
+    
+        width: 13px;
+		height: 13px;
+    
+		background: rgba(229, 229, 234, 1);
+    
+		border-radius: 50%;
+        
+        transform:translate(0, -2px);
+		-webkit-transform:translate(0, -2px);
+        -ms-transform:translate(0, -2px);
+        -moz-transform:translate(0, -2px);
+        -o-transform:translate(0, -2px);
+    
+}
+.seen-thinking:last-of-type::after {
+		content:"";
+		position:absolute;
+		z-index:3;
+		bottom:-6px;
+		left:18px;
+    
+		width: 8px;
+		height: 8px;
+		
+        background: rgba(229, 229, 234, 1);
+    
+		border-radius: 50%;
+    
+        transform:translate(-30px, -2px);
+		-webkit-transform:translate(-30px, -2px);
+        -ms-transform:translate(-30px, -2px);
+        -moz-transform:translate(-30px, -2px);
+        -o-transform:translate(-30px, -2px);
+}
+
+
+.text {
+    height: 0;
+    max-width: 250px;
+}
+
+.seen-thinking img {
+    display: inline-block;
+    width: 27px;
+    margin-right: 7px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
